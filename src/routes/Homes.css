@@ -1,0 +1,55 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  background-color: #fff; 
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk-WdNiTLy8YlkfILJpN2edBGPD5kbfBuBJw&s);
+  background-size: cover;
+ color: chocolate;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: left; 
+}
+
+
+.table th {
+  background-color: #f4f4f4; 
+  color: chocolate; 
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk-WdNiTLy8YlkfILJpN2edBGPD5kbfBuBJw&s);
+  background-size: cover;
+}
+
+.table-row {
+  transition: background-color 0.3s; 
+}
+
+.table-row:hover {
+  background-color: #4f1616; 
+}
+
+.table .avatar {
+  color: #007bff; 
+  text-decoration: none; 
+  display: block; 
+}
+
+.table .avatar:hover {
+  text-decoration: underline;
+  color: #0056b3; 
+}
+
+
+.table .avatar:active {
+  color: #003d7a; /* Even darker blue when the link is pressed */
+}
+
+/* Styling for the image */
+.table img {
+  width: 50px; /* Set a fixed width for images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Optional: make the image round */
+}

@@ -1,0 +1,49 @@
+body{
+   background: url(https://wallpapers.com/images/high/720p-beach-background-3872-x-2592-6z49pteaoiai6i6w.webp);
+   background-size: cover;
+}
+
+.profile-container {
+    width: 300px; /* Set the desired width of the profile container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border: 1px solid #ddd; /* Optional: add a light border */
+    border-radius: 8px; /* Optional: rounded corners */
+    text-align: center; /* Center align text and image */
+    background-color: #f9f9f9; /* Optional: background color */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    margin-top: 100px;
+    background: url(https://wallpapers.com/images/high/720p-nature-background-sxhkdkkakc2vhtk4.webp);
+   background-size: cover;
+
+}
+
+.profile-container:hover {
+    transform: scale(1.05); /* Slightly scale up the container on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.profile-container img {
+    width: 100px; /* Set a fixed width for the avatar image */
+    height: 100px; /* Set a fixed height for the avatar image */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    margin-bottom: 10px; /* Space between the image and text */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.profile-container img:hover {
+    transform: scale(1.1); /* Slightly scale up the image on hover */
+}
+
+.profile-container h3 {
+    font-size: 18px; /* Font size for headings */
+    margin: 10px 0; /* Margin for spacing between headings */
+    color:dodgerblue; /* Font color */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.profile-container h3:hover {
+    color: chocolate; /* Change text color on hover */
+}
